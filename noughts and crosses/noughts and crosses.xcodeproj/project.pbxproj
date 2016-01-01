@@ -1,0 +1,303 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5B1D41C21C33E918007ADE1E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1D41C11C33E918007ADE1E /* AppDelegate.swift */; };
+		5B1D41C41C33E918007ADE1E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1D41C31C33E918007ADE1E /* ViewController.swift */; };
+		5B1D41C71C33E918007ADE1E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B1D41C51C33E918007ADE1E /* Main.storyboard */; };
+		5B1D41C91C33E918007ADE1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B1D41C81C33E918007ADE1E /* Assets.xcassets */; };
+		5B1D41CC1C33E918007ADE1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B1D41CA1C33E918007ADE1E /* LaunchScreen.storyboard */; };
+		5B1D41D61C33ED65007ADE1E /* cross.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B1D41D31C33ED65007ADE1E /* cross.png */; };
+		5B1D41D71C33ED65007ADE1E /* nought.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B1D41D41C33ED65007ADE1E /* nought.png */; };
+		5B1D41D81C33ED65007ADE1E /* sqare.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B1D41D51C33ED65007ADE1E /* sqare.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5B1D41BE1C33E918007ADE1E /* noughts and crosses.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "noughts and crosses.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B1D41C11C33E918007ADE1E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5B1D41C31C33E918007ADE1E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5B1D41C61C33E918007ADE1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5B1D41C81C33E918007ADE1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5B1D41CB1C33E918007ADE1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5B1D41CD1C33E918007ADE1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B1D41D31C33ED65007ADE1E /* cross.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cross.png; sourceTree = "<group>"; };
+		5B1D41D41C33ED65007ADE1E /* nought.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nought.png; sourceTree = "<group>"; };
+		5B1D41D51C33ED65007ADE1E /* sqare.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sqare.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B1D41BB1C33E918007ADE1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B1D41B51C33E918007ADE1E = {
+			isa = PBXGroup;
+			children = (
+				5B1D41C01C33E918007ADE1E /* noughts and crosses */,
+				5B1D41BF1C33E918007ADE1E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5B1D41BF1C33E918007ADE1E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B1D41BE1C33E918007ADE1E /* noughts and crosses.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5B1D41C01C33E918007ADE1E /* noughts and crosses */ = {
+			isa = PBXGroup;
+			children = (
+				5B1D41C11C33E918007ADE1E /* AppDelegate.swift */,
+				5B1D41C31C33E918007ADE1E /* ViewController.swift */,
+				5B1D41C51C33E918007ADE1E /* Main.storyboard */,
+				5B1D41C81C33E918007ADE1E /* Assets.xcassets */,
+				5B1D41CA1C33E918007ADE1E /* LaunchScreen.storyboard */,
+				5B1D41CD1C33E918007ADE1E /* Info.plist */,
+				5B1D41D31C33ED65007ADE1E /* cross.png */,
+				5B1D41D41C33ED65007ADE1E /* nought.png */,
+				5B1D41D51C33ED65007ADE1E /* sqare.png */,
+			);
+			path = "noughts and crosses";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5B1D41BD1C33E918007ADE1E /* noughts and crosses */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B1D41D01C33E918007ADE1E /* Build configuration list for PBXNativeTarget "noughts and crosses" */;
+			buildPhases = (
+				5B1D41BA1C33E918007ADE1E /* Sources */,
+				5B1D41BB1C33E918007ADE1E /* Frameworks */,
+				5B1D41BC1C33E918007ADE1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "noughts and crosses";
+			productName = "noughts and crosses";
+			productReference = 5B1D41BE1C33E918007ADE1E /* noughts and crosses.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5B1D41B61C33E918007ADE1E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "堤隆道";
+				TargetAttributes = {
+					5B1D41BD1C33E918007ADE1E = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 5B1D41B91C33E918007ADE1E /* Build configuration list for PBXProject "noughts and crosses" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5B1D41B51C33E918007ADE1E;
+			productRefGroup = 5B1D41BF1C33E918007ADE1E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B1D41BD1C33E918007ADE1E /* noughts and crosses */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5B1D41BC1C33E918007ADE1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B1D41CC1C33E918007ADE1E /* LaunchScreen.storyboard in Resources */,
+				5B1D41D71C33ED65007ADE1E /* nought.png in Resources */,
+				5B1D41C91C33E918007ADE1E /* Assets.xcassets in Resources */,
+				5B1D41D61C33ED65007ADE1E /* cross.png in Resources */,
+				5B1D41D81C33ED65007ADE1E /* sqare.png in Resources */,
+				5B1D41C71C33E918007ADE1E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B1D41BA1C33E918007ADE1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B1D41C41C33E918007ADE1E /* ViewController.swift in Sources */,
+				5B1D41C21C33E918007ADE1E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5B1D41C51C33E918007ADE1E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B1D41C61C33E918007ADE1E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5B1D41CA1C33E918007ADE1E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B1D41CB1C33E918007ADE1E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5B1D41CE1C33E918007ADE1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5B1D41CF1C33E918007ADE1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5B1D41D11C33E918007ADE1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "noughts and crosses/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "t-takamichi.noughts-and-crosses";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5B1D41D21C33E918007ADE1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "noughts and crosses/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "t-takamichi.noughts-and-crosses";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5B1D41B91C33E918007ADE1E /* Build configuration list for PBXProject "noughts and crosses" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B1D41CE1C33E918007ADE1E /* Debug */,
+				5B1D41CF1C33E918007ADE1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B1D41D01C33E918007ADE1E /* Build configuration list for PBXNativeTarget "noughts and crosses" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B1D41D11C33E918007ADE1E /* Debug */,
+				5B1D41D21C33E918007ADE1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5B1D41B61C33E918007ADE1E /* Project object */;
+}
