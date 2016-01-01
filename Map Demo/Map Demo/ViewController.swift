@@ -18,22 +18,62 @@ class ViewController: UIViewController, MKMapViewDelegate {
         super.viewDidLoad()
         
         // 緯度経度
-        var latitude:CLLocationDegrees = 35.658182
-        var longitude:CLLocationDegrees = 139.702043
+        let latitude:CLLocationDegrees = 35.658182
+        let longitude:CLLocationDegrees = 139.702043
         
         // スクリーンの大きさ。緯度の差
-        var latDelta:CLLocationDegrees = 0.01
-        var lonDelta:CLLocationDegrees = 0.01
+        let latDelta:CLLocationDegrees = 0.01
+        let lonDelta:CLLocationDegrees = 0.01
         
-        var span:MKCoordinateSpan = MKCoordinateSpanMake(latDelta, lonDelta)
+        let span:MKCoordinateSpan = MKCoordinateSpanMake(latDelta, lonDelta)
         
-        var location:CLLocationCoordinate2D = CLLocationCoordinate2DMake(latitude, longitude)
+        let location:CLLocationCoordinate2D = CLLocationCoordinate2DMake(latitude, longitude)
         
-        var region:MKCoordinateRegion = MKCoordinateRegionMake(location, span)
+        let region:MKCoordinateRegion = MKCoordinateRegionMake(location, span)
         
         map.setRegion(region, animated: true)
         
+        let annotation = MKPointAnnotation()
+        
+        annotation.coordinate = location
+        
+        annotation.title = "Shibuya"
+        annotation.subtitle = "crowded place"
+        
+        map.addAnnotation(annotation)
+       
+        
+        let uilpgr = UILongPressGestureRecognizer(target: self, action: "action:")
+        
+        uilpgr.minimumPressDuration = 2
+        map.addGestureRecognizer(uilpgr)
+        
     }
+    
+    func action(gestureRecognizer:UIGestureRecognizer) {
+        
+        print("Gesture Recognizer")
+        
+        var touchPoint = gestureRecognizer.locationInView(self.map)
+        
+        var newCoordinate:CLLocationCoordinate2D = map.convertPoint(touchPoint, toCoordinateFromView: self.map)
+        
+        var annotation = MKPointAnnotation()
+        annotation.coordinate = newCoordinate
+        annotation.title = "New place"
+        annotation.subtitle = "This is new point"
+        
+        map.addAnnotation(annotation)
+        
+    }
+        
+        
+        
+        
+    
+    
+    
+    
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
