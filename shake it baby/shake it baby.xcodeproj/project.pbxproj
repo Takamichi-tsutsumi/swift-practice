@@ -1,0 +1,311 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5B01B6F31C3828B2009ED66F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B01B6F21C3828B2009ED66F /* AppDelegate.swift */; };
+		5B01B6F51C3828B2009ED66F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B01B6F41C3828B2009ED66F /* ViewController.swift */; };
+		5B01B6F81C3828B2009ED66F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B01B6F61C3828B2009ED66F /* Main.storyboard */; };
+		5B01B6FA1C3828B2009ED66F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B01B6F91C3828B2009ED66F /* Assets.xcassets */; };
+		5B01B6FD1C3828B2009ED66F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B01B6FB1C3828B2009ED66F /* LaunchScreen.storyboard */; };
+		5B01B7051C3828CA009ED66F /* djralph.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5B01B7041C3828CA009ED66F /* djralph.mp3 */; };
+		5B01B70A1C3828DA009ED66F /* audacity.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5B01B7061C3828DA009ED66F /* audacity.mp3 */; };
+		5B01B70B1C3828DA009ED66F /* djraprap.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5B01B7071C3828DA009ED66F /* djraprap.mp3 */; };
+		5B01B70C1C3828DA009ED66F /* fish_eagle.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5B01B7081C3828DA009ED66F /* fish_eagle.mp3 */; };
+		5B01B70D1C3828DA009ED66F /* turkey.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5B01B7091C3828DA009ED66F /* turkey.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5B01B6EF1C3828B2009ED66F /* shake it baby.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "shake it baby.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B01B6F21C3828B2009ED66F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5B01B6F41C3828B2009ED66F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5B01B6F71C3828B2009ED66F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5B01B6F91C3828B2009ED66F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5B01B6FC1C3828B2009ED66F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5B01B6FE1C3828B2009ED66F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B01B7041C3828CA009ED66F /* djralph.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = djralph.mp3; sourceTree = "<group>"; };
+		5B01B7061C3828DA009ED66F /* audacity.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = audacity.mp3; sourceTree = "<group>"; };
+		5B01B7071C3828DA009ED66F /* djraprap.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = djraprap.mp3; sourceTree = "<group>"; };
+		5B01B7081C3828DA009ED66F /* fish_eagle.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fish_eagle.mp3; sourceTree = "<group>"; };
+		5B01B7091C3828DA009ED66F /* turkey.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = turkey.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B01B6EC1C3828B2009ED66F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B01B6E61C3828B2009ED66F = {
+			isa = PBXGroup;
+			children = (
+				5B01B6F11C3828B2009ED66F /* shake it baby */,
+				5B01B6F01C3828B2009ED66F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5B01B6F01C3828B2009ED66F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B01B6EF1C3828B2009ED66F /* shake it baby.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5B01B6F11C3828B2009ED66F /* shake it baby */ = {
+			isa = PBXGroup;
+			children = (
+				5B01B6F21C3828B2009ED66F /* AppDelegate.swift */,
+				5B01B6F41C3828B2009ED66F /* ViewController.swift */,
+				5B01B6F61C3828B2009ED66F /* Main.storyboard */,
+				5B01B6F91C3828B2009ED66F /* Assets.xcassets */,
+				5B01B6FB1C3828B2009ED66F /* LaunchScreen.storyboard */,
+				5B01B6FE1C3828B2009ED66F /* Info.plist */,
+				5B01B7041C3828CA009ED66F /* djralph.mp3 */,
+				5B01B7061C3828DA009ED66F /* audacity.mp3 */,
+				5B01B7071C3828DA009ED66F /* djraprap.mp3 */,
+				5B01B7081C3828DA009ED66F /* fish_eagle.mp3 */,
+				5B01B7091C3828DA009ED66F /* turkey.mp3 */,
+			);
+			path = "shake it baby";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5B01B6EE1C3828B2009ED66F /* shake it baby */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B01B7011C3828B2009ED66F /* Build configuration list for PBXNativeTarget "shake it baby" */;
+			buildPhases = (
+				5B01B6EB1C3828B2009ED66F /* Sources */,
+				5B01B6EC1C3828B2009ED66F /* Frameworks */,
+				5B01B6ED1C3828B2009ED66F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "shake it baby";
+			productName = "shake it baby";
+			productReference = 5B01B6EF1C3828B2009ED66F /* shake it baby.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5B01B6E71C3828B2009ED66F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "堤隆道";
+				TargetAttributes = {
+					5B01B6EE1C3828B2009ED66F = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 5B01B6EA1C3828B2009ED66F /* Build configuration list for PBXProject "shake it baby" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5B01B6E61C3828B2009ED66F;
+			productRefGroup = 5B01B6F01C3828B2009ED66F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B01B6EE1C3828B2009ED66F /* shake it baby */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5B01B6ED1C3828B2009ED66F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B01B70B1C3828DA009ED66F /* djraprap.mp3 in Resources */,
+				5B01B70A1C3828DA009ED66F /* audacity.mp3 in Resources */,
+				5B01B6FD1C3828B2009ED66F /* LaunchScreen.storyboard in Resources */,
+				5B01B6FA1C3828B2009ED66F /* Assets.xcassets in Resources */,
+				5B01B70D1C3828DA009ED66F /* turkey.mp3 in Resources */,
+				5B01B70C1C3828DA009ED66F /* fish_eagle.mp3 in Resources */,
+				5B01B7051C3828CA009ED66F /* djralph.mp3 in Resources */,
+				5B01B6F81C3828B2009ED66F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B01B6EB1C3828B2009ED66F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B01B6F51C3828B2009ED66F /* ViewController.swift in Sources */,
+				5B01B6F31C3828B2009ED66F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5B01B6F61C3828B2009ED66F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B01B6F71C3828B2009ED66F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5B01B6FB1C3828B2009ED66F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B01B6FC1C3828B2009ED66F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5B01B6FF1C3828B2009ED66F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5B01B7001C3828B2009ED66F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5B01B7021C3828B2009ED66F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "shake it baby/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "t-takamichi.shake-it-baby";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5B01B7031C3828B2009ED66F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "shake it baby/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "t-takamichi.shake-it-baby";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5B01B6EA1C3828B2009ED66F /* Build configuration list for PBXProject "shake it baby" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B01B6FF1C3828B2009ED66F /* Debug */,
+				5B01B7001C3828B2009ED66F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B01B7011C3828B2009ED66F /* Build configuration list for PBXNativeTarget "shake it baby" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B01B7021C3828B2009ED66F /* Debug */,
+				5B01B7031C3828B2009ED66F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5B01B6E71C3828B2009ED66F /* Project object */;
+}
