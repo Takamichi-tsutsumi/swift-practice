@@ -12,6 +12,10 @@
 	<string>6.0</string>
 	<key>CFBundleName</key>
 	<string>$(PRODUCT_NAME)</string>
+	<key>NSLocationWhenInUseageDescription</key>
+	<string>Because I want to know where you are</string>
+	<key>NSLocationAlwaysUseageDescription</key>
+	<string>Because I always want to know where you are!</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
